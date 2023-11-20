@@ -421,102 +421,7 @@ main .hero .hero_details form button:hover {
 }
 /* Footer Section */
 
-/* Media Query */
-@media (max-width: 740px) {
-  .container_pad {
-    padding: 2rem 1.6rem;
-  }
 
-  .container_pad_2 {
-    padding: 0rem 1.6rem;
-  }
-
-  nav.container_pad {
-    padding: 2rem 1.3rem;
-  }
-
-  nav ul {
-    font-size: 14px;
-  }
-
-  nav .logo img {
-    width: 100px;
-    height: auto;
-  }
-
-  main .hero {
-    flex-direction: column;
-  }
-
-  main .hero .hero_details {
-    padding-top: 1rem;
-  }
-
-  main .hero .hero_details h1 {
-    font-weight: 600;
-    font-size: 29px;
-    margin-bottom: 25px;
-    text-align: center;
-  }
-  main .hero .hero_details p {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 45px;
-  }
-
-  main .hero .hero_details form {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  main .hero .hero_details form input {
-    width: 100%;
-  }
-
-  main .hero .hero_details form button {
-    width: 100%;
-  }
-
-  .social_prove {
-    padding-top: 4rem;
-    padding-bottom: 2rem;
-  }
-
-  .social_prove_container {
-    flex-direction: column;
-  }
-
-  .social_prove_writeup .social_prove_details h2 {
-    font-size: 22px;
-    font-weight: 600;
-    text-align: center;
-  }
-
-  .social_prove_sub {
-    font-size: 95%;
-    width: 100%;
-  }
-
-  .CTA {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    height: auto;
-    background-color: var(--sec-blue);
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    place-content: center center;
-    gap: 5rem;
-  }
-
-  .CTA_form input {
-    width: 100%;
-  }
-
-  .CTA_form button {
-    width: 100%;
-  }
-}
 
 
 /* Media Query */
@@ -615,9 +520,11 @@ main .hero .hero_details form button:hover {
   }
 
   .footer {
+    height: auto;
+    padding: 2rem 1.8rem;
     grid-template-columns: repeat(1, 1fr);
-   overflow: scroll;
-}
+    overflow: scroll;
+  }
 
 .footer section:nth-child(1) img {
   margin-top: 20px;
